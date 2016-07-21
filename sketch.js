@@ -9,8 +9,8 @@ x = 500;
 y = 200;
 
 function setup() {
-  var x = 2000;
-  var y = 1000;
+  var x = windowWidth;
+  var y = windowHeight;
   frameRate(10);
 
   createCanvas(x, y);
